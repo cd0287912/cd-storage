@@ -2,7 +2,7 @@
 
 `webpack` 是一个静态模块化打包工具。它通过一个或多个入口为起点构建一个依赖图，将程序所用的资源打包成一个或多个静态 `bundle` 文件。
 
-我们可以使用一个配置文件来灵活的配置 `webpack`。
+我们可以使用一个配置文件来灵活的配置 `webpack`。默认使用`webpack.config.js`来配置。
 
 ```js
 const path = require("path");
@@ -26,3 +26,5 @@ module.exports = {
 - output 出口：指明打包后的文件输出目录以及一些配置项
 - module loader：默认`webpack`只能处理`js`和`json`文件，要处理其他类型的文件就需要 `loader` 转换器
 - plugins 插件：增强`webpack`的能力
+
+下面分别对这些概念进行梳理:
